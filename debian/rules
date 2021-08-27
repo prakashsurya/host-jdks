@@ -92,7 +92,7 @@ override_dh_install:
 	./scripts/fetch-file-from-artifactory.sh \
 		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u262b10.zip" \
 		"2c02b3d5c69165f636ca9123eddbc641ecdf512807575283cbf433991caeb03a" \
-		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk1.8"
+		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u262b10-manifest" \
