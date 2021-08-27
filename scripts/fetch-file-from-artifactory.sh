@@ -38,7 +38,7 @@ EXPECTED_CKSUM="$2"
 OUTPUT_DIR="$3"
 
 PREFIX="https://artifactory.delphix.com/artifactory/delphix-java-packages"
-FILENAME="jdk.tar.gz"
+FILENAME="$(basename "$ARTIFACTORY_PATH")"
 
 trap cleanup EXIT
 
