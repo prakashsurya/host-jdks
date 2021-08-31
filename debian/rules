@@ -66,7 +66,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"hpux/jdk1.8/jdk-8.0.22-hpux-ia64-manifest" \
-		"4acc22a9af8f425b24cff1ade54ebc35c9e620df6b84b3dea2bc53957eb7ad03" \
+		"3901d4f3b1f8047978dfc5fc97bfb81ca7a2df3675252334bb8338a32385ac9c" \
 		"debian/tmp/usr/share/host-jdks/jdk/hpux_ia64/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
