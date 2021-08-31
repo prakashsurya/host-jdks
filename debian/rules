@@ -56,7 +56,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"aix/jdk1.8/jdk-8.0.0.631-aix-powerpc64-manifest" \
-		"9b169fda702f093f558150742615bef7d4f4993a97dd8ce2a9ba1ad8d5900546" \
+		"74f25e37199991c50f48dcda5fdd0cbef66835ded463674310a110abe6b62739" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
