@@ -51,7 +51,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"aix/jdk1.8/jdk-8.0.0.631-aix-powerpc64.tar.gz" \
-		"b9b948ad5229e9866f09b9160efd83b72fffa695fb73fb5bf982f793adafc0fd" \
+		"74f25e37199991c50f48dcda5fdd0cbef66835ded463674310a110abe6b62739" \
 		"debian/tmp/usr/share/host-jdks/jdk/aix_powerpc/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
