@@ -71,7 +71,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u282b08.tar.gz" \
-		"5f66e95e784d6ca36ccabab45719413e930db50d436aa123779bc2fce389742a" \
+		"90b08b369e2803540cca4857b72bb7e72a8a304f7d67b78bf38fd28adcd9dd24" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
