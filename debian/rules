@@ -41,7 +41,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk1.8/OpenJDK8U-jdk_ppc64le_linux_hotspot_8u302b08.tar.gz" \
-		"ed5cbc0f292abf68923720fa2bd76aab63a0cd92e6d8145f30a4d10135bb8ec3" \
+		"cab23e8cd720d44ab47ae7205bf5c01c22c3690705de057adc1652de87fe0467" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_ppc64le/jdk1.8/jdk.tar.gz"
 
 	./scripts/fetch-file-from-artifactory.sh \
