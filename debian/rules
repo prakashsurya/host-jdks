@@ -96,7 +96,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"windows/jdk1.8/OpenJDK8U-jdk_x64_windows_hotspot_8u302b08-manifest" \
-		"d76da455e19f8dd2f97df6334cadc32eb5ec32a11e87a1af64a8937b3cb40c39" \
+		"f86a4b1ae10b02f3a1e52f7ed735604f58d372c3f8a0ff271032d8e17a50a11e" \
 		"debian/tmp/usr/share/host-jdks/jdk/windows_x86/jdk1.8/manifest"
 
 	dh_install --autodest "debian/tmp/*"
