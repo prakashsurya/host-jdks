@@ -76,7 +76,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"sunos/jdk1.8/OpenJDK8U-jdk_x64_solaris_hotspot_8u282b08-manifest" \
-		"1da925cceccbd3f0fe1cfd5fe76aa4d7e1d0da2a3fcd7cc6724d0550cb32f73b" \
+		"10daf9c2f73857e9e0f20c8ca3a2d4d7258ea9a6667cc1caae94489489bd81c4" \
 		"debian/tmp/usr/share/host-jdks/jdk/sunos_sparc/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
