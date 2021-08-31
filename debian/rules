@@ -26,7 +26,7 @@ override_dh_install:
 
 	./scripts/fetch-file-from-artifactory.sh \
 		"linux/jdk1.8/OpenJDK8U-jdk_x64_linux_hotspot_8u302b08-manifest" \
-		"31a2cff7f96f6ca87ecd7d8531c9ad9a1d7520e7ebe5e821ac28af220c8843d8" \
+		"eb47bce5d81f9979717bdb0a58ec50b081a67b3a7d38177201c378f5776936ed" \
 		"debian/tmp/usr/share/host-jdks/jdk/linux_x86/jdk1.8/manifest"
 
 	./scripts/fetch-file-from-artifactory.sh \
